@@ -1,23 +1,14 @@
-h1{
+h1 {
   color: darkblue;
 }
 
-.filter h4 {
-  color: dimgrey;
-  font-size: 15px;
-  margin-left: 25px;
+a {
+  color: gray;
 }
 
-.filter h3{
-  margin-left: 15px;
-  color: darkblue;
-}
 
-nav.navbar.navbar-default{
-  background-color: whitesmoke;
-}
 
-.filter{
+nav.navbar.navbar-default {
   background-color: whitesmoke;
 }
 
@@ -25,16 +16,34 @@ td {
   font-size: 11px;
 }
 
-.background-tabs{
+.background-tabs {
   background-color: #e1e1e1;
 }
 
-.background-tabs span{
+.background-tabs span {
   margin: 15px;
 }
 
-.logo{
+.background-tabs ul {
+  margin-left: 35px;
+}
+
+.logo {
   height: 28px;
   margin-top: 14px;
 }
 
+.nav-link:hover {
+  border: none;
+}
+
+.nav-link.active {
+  background-color: white;
+  border-radius: unset;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.nav-tabs li {
+  margin-top: 15px;
+}
