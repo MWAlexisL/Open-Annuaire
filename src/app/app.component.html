@@ -29,8 +29,8 @@
     </li>
   </ul>
 </div>
-<div class="col-md-12">
-  <app-menu-filter (onNewFilter)="convertFilterToCompany($event);generateUrl($event)"></app-menu-filter>
+<div class="row">
+  <app-menu-filter (onNewFilter)="convertFilterToCompany($event)" class="col-md-2"></app-menu-filter>
   <router-outlet></router-outlet>
 </div>
 
