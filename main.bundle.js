@@ -830,7 +830,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "mat-form-field.mat-form-field {\n  font-size: 13px;\n  width: 350px;\n  margin-left: 15px; }\n", ""]);
+exports.push([module.i, "mat-form-field.mat-form-field {\n  font-size: 13px;\n  width: 350px;\n  margin-left: 15px; }\n  @media screen and (max-width: 991px) {\n    mat-form-field.mat-form-field {\n      width: 300px; } }\n", ""]);
 
 // exports
 
